@@ -1,7 +1,11 @@
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
+
 const Header = () => {
   return (
     <header >
-      <h1>Keeper</h1>
+      <h1>
+        <LightbulbIcon />Keeper
+      </h1>
     </header>
   )
 }
